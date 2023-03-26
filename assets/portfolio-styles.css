@@ -1,0 +1,62 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* replace floats with flexbox when able */
+h1{
+    float: left;
+    background-color: lightcoral;
+    padding: 15px;
+    font-size: 70px;
+    margin-left: 1%;
+    margin-top: 1%;
+    color: white;
+}
+
+header {
+    background-color: sienna;
+    position:absolute;
+    width:100vw;  
+    margin-bottom: 15px  
+}
+
+nav ul{
+    float:right;
+    padding: 0 2rem
+}
+
+nav a {
+    float:right;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+.about-card {
+    float: left;
+    background-color: lightcoral;
+    padding: 15px;
+    font-size: 35px;
+}
+
+#about-me {
+    padding-top: 150px;
+}
+
+
+
+/*uncomment media query when page is laid out*/
+/*@media screen and (max-width: 992px) {
+    .card{
+      width: 50%;
+    }
+  }*/

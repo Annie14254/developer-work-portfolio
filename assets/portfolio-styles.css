@@ -52,7 +52,22 @@ nav ul li {
     padding-top: 150px;
 }
 
+h2 {
+    padding-top: 5px;
+    padding-left: 1%;
+    font-size: 35px;
+    padding-bottom: 10px;
+    background-color:lightcoral;
+    width: 22%;
+    color: white;
+}
 
+section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:bisque;
+    padding-left: 1%;
+}
 
 /*uncomment media query when page is laid out*/
 /*@media screen and (max-width: 992px) {

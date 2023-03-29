@@ -3,6 +3,9 @@
 ## Description
 This webpage provides the background about me and the links to my portfolio on GitHub. Currently, there are two placeholder links leading to Google.com and github.com, which will be replaced at a later date by other portfolio items. I do not claim these sites to be a part of my current portfolio.
 
+## Deployed Page
+<img src = ".assets/images/deployedpage.png" alt = "An image of the deployed portfolio"/>
+
 ## Installation
 N/A
 

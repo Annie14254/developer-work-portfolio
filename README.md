@@ -10,7 +10,7 @@ This webpage provides the background about me and the links to my portfolio on G
 N/A
 
 ## Usage
-Access the deployed site at (placeholder). The page contains multiple links, including links within the page to different sections and links underneath the "Links to Portfolio" section to my deployed projects.
+Access the deployed site at (https://annie14254.github.io/developer-work-portfolio/). The page contains multiple links, including links within the page to different sections and links underneath the "Links to Portfolio" section to my deployed projects.
 
 ## Credits
 N/A

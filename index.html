@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class = "headflex">
-        <!--title goes here-->
+        <!--add media queries in CSS-->
         <h1>Annie Ashley</h1>
         <nav class="navbar">
             <ul>
@@ -22,17 +22,20 @@
 
     <main>
         <section id="about-me">
-            <h2>About Me</h2>
+            <h2 class = "about-me-header">About Me</h2>
+            <div>
                 <p>My name is Annie Ashley, and I am a 23 year old student in the University of Minnesota Coding Bootcamp. I am hoping to get my certification in full-stack development so that I can begin a career in the tech field.</p>
                 <p>I have learned the basics of HTML, CSS, and JavaScript. I am hoping in the future to expand my abilities to React and other coding languages used often in the tech field, such as C# or Golang. Below you can find a portfolio of the projects I have created so far using my skills.</p>
-            <img id = "photo" src = "https://placehold.co/150"/>
+                <img id = "photo" src = "https://placehold.co/150"/>
+            </div>
         </section>
 
         <section id="portfolio">
             <h2>Links to Portfolio</h2>
             <div class = "container">
+                <!--need to make this one larger than the others-->
                 <a class = "card" href = "https://annie14254.github.io/horiseon-semantic-html/">
-                    <img src = "assets/images/horiseon-semantic.png" class = "linkimage" alt = "A screenshot of the Horiseon SEO page"/>
+                    <img src = "assets/images/horiseon-semantic.png" class = "largeimage" alt = "A screenshot of the Horiseon SEO page"/>
                     <div class="imagetext">Horiseon SEO Semantic HTML</div>
                 </a>
                 <a class = "card" href = "https://annie14254.github.io/pet-website-practice/">

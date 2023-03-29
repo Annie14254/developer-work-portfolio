@@ -21,7 +21,7 @@ h1{
 header {
     background-color: sienna;
     position:absolute;
-    width:100vw;  
+    width:100%;  
     margin-bottom: 15px;
 }
 /*nav elements configure nav to be inline without text decoration*/
@@ -43,12 +43,26 @@ nav a {
     font-size: 25px;
     font-weight:bold;
 }
+
+nav a:hover{
+    color:rgb(161, 161, 161);
+}
+
+nav a:active{
+    color:rgb(77, 77, 77);
+}
+
 /*adding spacing between first card and header, leaving space for image*/
 #about-me {
-    padding-top: 200px;
+    padding-top: 300px;
     width:100%;
-
 }
+
+#about-me div {
+    display:flex;
+}
+
+
 /*setting formatting for each section's title card*/
 h2 {
     padding-top: 5px;
@@ -65,14 +79,17 @@ h2 {
 
 /*formatting image to appear next to the about-me section*/
 
+
 #photo {
-    display:block;
+    display:inline-block;
     max-width: 200px;
     max-height: 200px;
-    margin-left: auto;
-    margin-right:auto;
     padding: 10px;
     background-color: lightcoral;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:25%;
+    vertical-align: right;
 }
 
 
@@ -83,7 +100,8 @@ section p {
     background-color:bisque;
     padding-left: 1%;
     margin-left: 5%;
-    width: 85%
+    width: 85%; 
+    font-size: 20px
 }
 
 p {
@@ -97,6 +115,7 @@ p {
     margin-left: 5%;
     flex-wrap: wrap;
     margin-bottom: 100px;
+    width: 50%
 }
 /*standardizing size of image links*/
 .linkimage {
@@ -106,14 +125,27 @@ p {
     padding: 10px;
     background-color: sienna;
     position: relative;
+    min-width: 300px;
+    min-height: 300px;
 }
-/*placing text over images using absolute positioning*/
+/*larger image link for first project */
+.largeimage {
+    width: 930px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+    background-color: sienna;
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+}
+/*placing text under images */
 .imagetext {
-    position: absolute;
-    bottom: -100px;
     background-color: sienna;
     font-size: 20px;
     padding: 3px;
+    margin-bottom:10px;
+    margin-top: -5px;
     color: white;
     text-decoration: none;
 }
@@ -136,10 +168,41 @@ p {
     background-color: sienna
 }
 
+#contact a:hover{
+    color:rgb(161, 161, 161);
+}
 
-/*uncomment media query when page is laid out*/
-/*@media screen and (max-width: 992px) {
-    .card{
+#contact a:active{
+    color:rgb(77, 77, 77);
+}
+
+
+/*media query for smaller displays*/
+@media screen and (max-width: 1561px) {
+    .largeimage{
+        width: 600px;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    .linkimage{
       width: 50%;
     }
-  }*/
+    .imagetext{
+        width: 50%;
+      }
+    .largeimage{
+        width: 50%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .linkimage{
+      width: 100%;
+    }
+    .largeimage {
+        width:100%
+    }
+    .imagetext{
+        width: 100%;
+      }
+  }
